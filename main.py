@@ -31,7 +31,7 @@ def main():
     report(sort)
 
 if len(sys.argv) != 2:
-    print("Please make sure to have 2 argument: 'main.py' and 'Path to file you want read'")
+    print("Usage: python3 main.py <path_to_book>")
     sys.exit(1)
 
 main()
